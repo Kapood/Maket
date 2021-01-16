@@ -1,0 +1,358 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FBFDFF;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.head-name {
+    margin-top: 180px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.head-name-des {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 170%;
+    color: #FFFFFF;
+}
+
+.btn-head {
+    max-width: 236px;
+    display: block;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #1254E2;
+    background: #1254E2;
+    background-size: 200%;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.btn-head:hover {
+    color: #FFFFFF;
+}
+
+.btn-head2 {
+    max-width: 236px;
+    display: block;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    background-size: 200%;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    border: 1px solid white;
+}
+
+.btn-head2:hover {
+    color: #FFFFFF;
+}
+
+.btn-head img,
+.btn-head2 img {
+    margin-left: 12px;
+}
+
+.wave {
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+
+.row-head-but {
+    margin: 0;
+    padding: 0;
+    margin: 80px 0 60px 0;
+}
+
+.back-top-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.main-head-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.main-head-description {
+    max-width: 825px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 170%;
+    text-align: center;
+    color: #828282;
+    transform: rotate(0.1deg);
+}
+
+.main-text-head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.main-text-descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-bottom: 50px;
+}
+
+.shadow-block {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 32px 24px;
+}
+
+.shadow-block-head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #1254E2;
+    text-align: left;
+}
+
+.shadow-block-pay {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    color: #333333;
+    margin-top: 22px;
+    padding-bottom: 42px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.shadow-block-text {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.shadow-block-li {
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.05em;
+    color: #333333;
+}
+
+.shadow-sub {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.shadow-sub-head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 170%;
+    color: #333333;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #1254E2;
+    max-width: 200px;
+}
+
+.shadow-sub-des {
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 170%;
+    color: #828282;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.shadow-sub-input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #A9A9A9;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    color: #000;
+    padding: 10px 0;
+}
+
+.shadow-sub-but {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1254E2;
+    margin-top: 42px;
+    text-align: right;
+}
+
+.img-bg-2 {
+    position: absolute;
+    left: -150px;
+}
+
+.bott-block-head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 200px;
+    max-width: 370px;
+}
+
+.bott-block-des {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 170%;
+    color: #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 15px;
+}
+
+.bott-block-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 170%;
+    color: #FFFFFF;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    margin-top: 35px;
+}
+
+.shadow-mini {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 25px 12px;
+}
+
+.shadow-mini-head {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.shadow-mini-head-a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150%;
+    color: #2F80ED;
+}
+
+.shadow-mini-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #333333;
+    margin-top: 10px;
+}
+
+@media (max-width: 991.9px) {}
+
+@media (max-width: 767.9px) {}
+
+@media (max-width: 575.9px) {
+    .main-head-text,
+    .bott-block-head {
+        font-size: 28px;
+    }
+    .main-head-description,
+    .bott-block-des {
+        font-size: 20px;
+    }
+    .btn-head {
+        margin-bottom: 20px;
+    }
+    .head-name {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .head-name-des {
+        font-size: 26px;
+        line-height: 150%;
+    }
+    .row-head-but {
+        margin: 40px 0 20px 0;
+        ;
+    }
+    .mini-dis-cor1 {
+        margin-top: 0rem!important;
+    }
+}
